@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Mim</title>
+
+    <style> 
+.menu {
+display: flex;
+justify-content: center;
+background-color: #333;
+flex-wrap: wrap;
+}
+.menu a {
+ padding: 14px 20px;
+display: block;
+color: white;
+text-align: center;
+ text-decoration: none;
+}
+  .menu a:hover {
+ background-color: #575757;
+}
+* {
+ box-sizing: border-box;
+ margin: 0;
+    padding: 0;
+}
+body {margin: 0 auto;
+font-family: Arial, sans-serif;
+}
+header {
+background: url('header4.png') no-repeat center center;
+background-size: cover;
+height: 200px;
+display: flex;
+align-items: center;
+justify-content: center;
+color: white;
+}
+.sobre-mim {display: flex;
+align-items: center;
+justify-content: center;
+min-height: calc(100vh - 200px - 48px); 
+ padding: 20px;
+background: url('fundo2.jpeg') no-repeat center center;
+ background-size: cover;
+flex-wrap: wrap;
+}
+.sobre-mim img {
+width: 150px;
+height: auto;
+border-radius: 50%;
+margin-right: 20px;
+}
+/* Estilo para o conteúdo */
+.sobre-mim .conteudo {
+max-width: 600px;
+text-align: left;
+background: rgba(255, 255, 255, 0.8); 
+padding: 20px;
+border-radius: 10px;
+}
+/* Estilo roodapé */
+footer {
+clear: both;
+padding: 30px;
+background-color: #222121;
+color: white;
+font-size: larger;
+}
+footer table {
+width: 100%;
+}
+footer table td {
+padding: 10px;
+}
+ /* Estilos responsivos */
+@media (max-width: 768px) {
+.sobre-mim {
+flex-direction: column;
+text-align: center;
+}
+.sobre-mim img {
+margin: 0 auto 20px;
+}
+.menu {
+flex-direction: column;
+}
+ .menu a {
+padding: 10px;
+}
+}
+    </style>
+</head>
+<body>
+    <header>
+    </header>
+    <nav class="menu">
+<a href="sobremim.html">Sobre mim</a>
+  <a href="portfolio.html">Portfolio</a>
+ <a href="#Contato">Contato</a>
+    </nav>
+<section class="sobre-mim" id="Sobre-mim">
+<img src="rh.png" alt="Minha Foto">
+     <div class="conteudo">
+<h1>Sobre Mim</h1><br>
+ <p>Olá! Meu nome é Rhamsés Gonçalves Magalhães, tenho 26 anos de idade e uma filha linda e saudavel de 3 anos. moro em uma cidade localizada no sul de Minas Gerais, que se chama Santa Rita Do Sapucai. <br> <br>Trabalho no almoxarifado de uma empresa chamada Intelbras, desenvolvedora de tecnologia e segurança. Tenho paixão por música, história, filosofia e desenvolvimento de sistemas, e sou apreciador de um bom futebol.</p><br><br>
+<p>Tenho experiência em maquinários de laticínios em almoxarifado e situações que a vida nos proporciona. Gosto de aprender coisas novas e solucionar problemas.</p>
+<br>
+<p>Se quiser saber mais sobre mim, sinta-se a vontade para entrar em contato!</p>
+</div>
+</section>
+<footer id="Contato">
+ <div>
+<table>
+<tr>
+<td><img src="whats.png" alt="WhatsApp"> (35) 99951-3107</td>
+ <td><img src="localiza.png" alt="Localização"> Santa Rita Do Sapucai-MG</td>
+ </tr>
+  <tr>
+  <td colspan="2"><img src="mail.png" alt="Email"> rhamsesagalhaes@gmail.com</td>
+  </tr>
+  </table>
+   </div>
+</footer>
+</body>
+</html>
